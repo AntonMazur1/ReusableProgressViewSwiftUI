@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var sliderValue = 0.0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 30) {
+            CircleView(value: $sliderValue)
+                .frame(width: 200, height: 200)
+            Slider(value: $sliderValue)
         }
         .padding()
     }

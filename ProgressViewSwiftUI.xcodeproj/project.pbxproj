@@ -11,6 +11,7 @@
 		89D11C2028D9A3D700700AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D11C1F28D9A3D700700AB2 /* ContentView.swift */; };
 		89D11C2228D9A3D900700AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D11C2128D9A3D900700AB2 /* Assets.xcassets */; };
 		89D11C2528D9A3D900700AB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D11C2428D9A3D900700AB2 /* Preview Assets.xcassets */; };
+		89D11C2C28D9A3E600700AB2 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D11C2B28D9A3E600700AB2 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		89D11C1F28D9A3D700700AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89D11C2128D9A3D900700AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D11C2428D9A3D900700AB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89D11C2B28D9A3E600700AB2 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				89D11C1D28D9A3D700700AB2 /* ProgressViewSwiftUIApp.swift */,
 				89D11C1F28D9A3D700700AB2 /* ContentView.swift */,
+				89D11C2B28D9A3E600700AB2 /* CircleView.swift */,
 				89D11C2128D9A3D900700AB2 /* Assets.xcassets */,
 				89D11C2328D9A3D900700AB2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D11C2C28D9A3E600700AB2 /* CircleView.swift in Sources */,
 				89D11C2028D9A3D700700AB2 /* ContentView.swift in Sources */,
 				89D11C1E28D9A3D700700AB2 /* ProgressViewSwiftUIApp.swift in Sources */,
 			);
