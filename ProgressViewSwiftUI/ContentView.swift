@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 30) {
-            CircleView(value: $sliderValue)
+            CircleView(value: $sliderValue, backColor: .pink, foregroundColor: .yellow)
                 .frame(width: 200, height: 200)
             Slider(value: $sliderValue)
         }

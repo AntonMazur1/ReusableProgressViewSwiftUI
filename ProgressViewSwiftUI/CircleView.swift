@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CircleView: View {
     @Binding var value: Double
+    let backColor: Color
+    let foregroundColor: Color
     
     var body: some View {
         ZStack {
@@ -16,12 +18,12 @@ struct CircleView: View {
                 .frame(width: 100, height: 100)
             Circle()
                 .stroke(
-                    .pink.opacity(0.5),
+                    backColor.opacity(0.5),
                     lineWidth: 30
                 )
                 .overlay(Circle()
                     .trim(from: 0, to: value)
-                    .stroke(.pink,
+                    .stroke(foregroundColor,
                             style: StrokeStyle(lineWidth: 30, lineCap: .round)))
                 .rotationEffect(.degrees(-90))
         }
@@ -30,6 +32,6 @@ struct CircleView: View {
 
 struct CircleView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleView(value: .constant(0))
+        CircleView(value: .constant(0), backColor: .pink, foregroundColor: .pink)
     }
 }
